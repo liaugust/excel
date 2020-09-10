@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "semi": "off",
+    "indent": "off",
+    "no-tabs": "off",
+    "comma-dangle": "off",
+    "require-jsdoc": "off",
+    "operator-linebreak": "off",
+    "eol-last": "off",
+    "object-curly-spacing": "off",
+    "arrow-parens": "off",
+    "linebreak-style": "off"
+  },
+  "extends": ["eslint:recommended", "google"]
+}
